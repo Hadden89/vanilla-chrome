@@ -1,0 +1,112 @@
+﻿{
+
+"extName": { "message": "Vanilla" },
+
+"extDescription": { "message": "Un gestore di Cookie a Lista Bianca che ti aiuta a proteggere la tua privacy. Rimuove automaticamente i cookie indesiderati." },
+
+"popupClearAll": {
+  "message": "Rimuovi i cookie indesiderati ($black$ su $total$)",
+  "placeholders": {
+    "black": { "content": "$1", "example": "1" },
+    "total": { "content": "$2", "example": "2" }
+  }
+},
+
+"popupAddWhite": {
+  "message": "Aggiungi <b>$dom$</b> alla lista bianca",
+  "placeholders": {
+    "dom": { "content": "$1", "example": "google.com" }
+  }
+},
+               
+"popupDelWhite": {
+  "message": "Rimuovi <b>$dom$</b> dalla lista bianca",
+  "placeholders": {
+    "dom": { "content": "$1", "example": "google.com" }
+  }
+},
+
+"labelOptions": { "message": "Mostra Opzioni" },
+
+
+"optionsCaption": { "message": "Opzioni Vanilla" },
+
+"optionsInfo": {
+  "message": "<b>Utilizzo consigliato:</b><ul>
+    <li>Aggiungi i cookie dei siti da preservare alla lista bianca</li>
+    <li>Abilita <i>Rimuovi cookie indesiderati all'avvio</i> (vedi sotto)</li>
+    </ul>
+    Se non vuoi rimuovere i cookie indesiderati automaticamente devi pulirli manualmente utilizzando l'icona di Vanilla nella omnibar."
+},
+
+"optionsClearCookiesOnStartup": { "message": "Rimuovi cookie indesiderati all'avvio - oppure:" },
+"optionsProtectCookies": { "message": "Proteggi cookie in lista bianca" },
+
+"optionsProtectCookiesWarning1": { 
+  "message": "<b>Ora puoi abilitare su Chrome l'opzione <i>Memorizza dati locali solo fino a chiusura del browser</i> - Vanilla proteggerà i tuoi cookies.</b>
+    <br/>Puoi trovare quest'opzione in <i>Chrome, Impostazioni, Avanzate, Privacy e sicurezza, Impostazioni sito, Cookie</i>."
+},
+"optionsProtectCookiesWarning2": { 
+  "message": "<b>Assicurati di non star utilizzando <i>Mantieni dati locali fino all'uscita dal browser</i> in Chrome, 
+    altrimenti tutti i tuoi cookie saranno cancellati!</b>
+    <br/>Puoi trovare quest'opzione in <i>Chrome, Impostazioni, Avanzate, Privacy e sicurezza, Impostazioni sito, Cookie</i>."
+},
+
+"optionsAutoDelDark": { "message": "Auto elimina cookie indesiderati dopo 30 minuti" },
+
+"optionsAutoDelDarkNever": { "message": "Non rimuovere automaticamente i cookie indesiderati" },
+"optionsAutoDelDarkMinutes": {
+  "message": "Auto elimina i cookie indesiderati dopo $minutes$ minuti",
+  "description": "...",
+  "placeholders": {
+    "minutes": { "content": "$1", "example": "1" }
+  }
+},
+
+"optionsShowUpdates": { "message": "Mostra cambiamenti quando l'estensione è aggiornata" },
+"optionsShowUpdatesNow": { "message": "Vedi cambiamenti" },
+
+"optionsHideTabIcon": { "message": "Nascondi l'icona di Vanilla dalla omnibar - dovrai gestire i cookie in lista bianca manualmente dalla pagina delle opzioni!" },
+
+"optionsEnable": { "message": "Abilita" },
+"optionsFeedback": { "message": "Informazioni & Feedback" },
+
+"optionsFeedbackText": {
+  "message": "<b>Se vuoi gestire l'archiviazione locale, metti una stella su questo <a href='http://code.google.com/p/chromium/issues/detail?id=78093'>Bug di Chrome</a>!</b><p> Ti piace Vanilla? <a href='https://chrome.google.com/extensions/detail/gieohaicffldbmiilohhggbidhephnjj'>Lascia un commento e una valutazione</a>!"
+},
+"optionsFeedbackBug": { "message": "Hai trovato un bug? <b>Se sei uno sviluppatore puoi creare il tuo fork di Vanilla su <a href='https://github.com/laktak/vanilla-chrome'>GitHub</a>!</b>" },
+
+"optionsWhitelist": { "message": "Lista bianca: i cookie di questi siti non saranno eliminati" },
+"optionsAdd": { "message": "Aggiungi" },
+"optionsEdit": { "message": "Modifica" },
+"optionsRemove": { "message": "Rimuovi" },
+"optionsToggleSub": { "message": "Includi sottodomini" },
+"optionsWhitelistHelp": { "message": "*. includerà tutti i sotto domini di un sito. Es: *.google.com includerà www.google.com, docs.google.com, mail.google.com, ... così come google.com" },
+
+"optionsDiagnostics": { "message": "Diagnostica &amp; Strumenti" },
+"optionsRefresh": { "message": "Aggiorna" },
+"optionsDiagLog": { "message": "Log" },
+"optionsDiagBlack": { "message": "Siti con cookie indesiderati" },
+"optionsDiagWhite": { "message": "Siti con cookie in lista bianca" },
+"optionsDiagProtected": { "message": "Siti con cookie protetti" },
+
+"optionsExportLabel": { "message": "Esporta/Importa Lista Bianca" },
+"optionsExportHelp": { "message": "Per esportare clicca prima Esporta, poi copia i valori dal box di sotto. Per importare, incolla tutti i valori nel box  di sotto (uno per riga) e poi clicca Importa." },
+"optionsExportCmd": { "message": "Esporta" },
+"optionsImportCmd": { "message": "Importa" },            
+
+"popupErrorEmpty": { "message": "La lista bianca è vuota - aggiungi qualche sito!" },
+
+"popupClearAllMsg": {
+  "message": "Rimossi $removed$ cookie su un totale di $total$!",
+  "description": "...",
+  "placeholders": {
+    "removed": { "content": "$1", "example": "1" },
+    "total": { "content": "$2", "example": "2" }
+  }
+},
+
+"updatedCaption": { "message": "Vanilla aggiornato" },
+"updatedInfo": { "message": "Vanilla Cookie Manager è stato aggiornato (puoi disattivare questa pagina dalle opzioni)." }
+
+}

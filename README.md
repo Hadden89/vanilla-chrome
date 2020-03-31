@@ -1,3 +1,9 @@
+Fork Notes:
+==============
+* Add Italian translation
+* (coming soon) Overrides for dark theme (popup/options)
+* Sponsor hidden (the link is not available anyway)
+
 Vanilla Cookie Manager
 ==============
 

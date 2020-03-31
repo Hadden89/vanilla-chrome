@@ -1,7 +1,7 @@
 Fork Notes:
 ==============
 * Add Italian translation
-* Tweaked icon for better visibility
+* Tweaked icon for better visibility on dark theme
 * coming soon: Overrides for dark theme (popup/options)
 * coming soon: Sponsor hidden (the link is not available anyway)
 

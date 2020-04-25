@@ -1,3 +1,18 @@
+/* Overrides for dark theme */
+body, .section {background-color: #333 !important;}
+.section {margin: 5px 0px !important;}
+h2, h3, td, .optionDescription {color: #fff !important;}
+.spo {display: none !important;}
+a, a:visited {color: lime !important;}
+input, select, textarea#expimp {filter: invert(.9) !important;}
+.ui-state-default, .ui-state-active, 
+.ui-accordion-content-active {background: #555 !important;}
+#accordion div div {color: #fff !important;}
+#btnExport, #btnImport {font-size: 80%;}
+.ui-icon.ui-icon-triangle-1-e,
+.ui-icon.ui-icon-triangle-1-s {filter: invert(.9) !important;}
+#versionInfo.topinfo:after {content: ' - Mod by Hadden89';}
+
 body {
   font: 14px arial;
   overflow-y: scroll;

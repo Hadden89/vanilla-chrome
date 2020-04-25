@@ -2,9 +2,10 @@ Fork Notes (v1.4.1):
 ==============
 * Add Italian translation
 * Hidden sponsor in option.css (the link is not available anyway)
+* Icons png changed for better visibility on dark browser themes.
 * Manifest version updated to v1.4.1
-* Tweaked icon for better visibility on dark theme
-* Overrides for dark theme (popup/options)
+* Margins reduced in options page
+* Overrides for dark theme in popup.html and options.css
 
 Vanilla Cookie Manager
 ==============

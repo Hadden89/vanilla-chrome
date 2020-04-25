@@ -1,9 +1,10 @@
-Fork Notes:
+Fork Notes (v1.4.1):
 ==============
 * Add Italian translation
+* Hidden sponsor in option.css (the link is not available anyway)
+* Manifest version updated to v1.4.1
 * Tweaked icon for better visibility on dark theme
-* coming soon: Overrides for dark theme (popup/options)
-* coming soon: Sponsor hidden (the link is not available anyway)
+* Overrides for dark theme (popup/options)
 
 Vanilla Cookie Manager
 ==============
